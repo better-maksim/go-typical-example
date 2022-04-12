@@ -50,5 +50,4 @@ TODO
 
 你的支持，就是我更新的动力，如果想要对这本电子书进行赞助可以扫描下方二维码。
 
-
-![](./images/WechatIMG3.jpeg)
+<img src="./images/WechatIMG3.jpeg" width=200>
