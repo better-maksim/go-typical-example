@@ -1,4 +1,4 @@
-# go-typical-example
+# 《Go语言典型实例》
 
 ## 前言
 
@@ -23,7 +23,7 @@ TODO
 在这一部分主要对并发编程的一些细节、案例进行讲解，帮助大家快速入门 Go 并发编程。
 
 ### 目录
-
+1. [线程安全的计数器](./concurrency/incr.md)
 1. [安全的 goroutine](./concurrency/safe_goroutine.md) 
 2. [使用信号量解决死锁](./concurrency/deadlock.md) 
 

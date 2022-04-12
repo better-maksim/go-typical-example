@@ -20,6 +20,8 @@
 
 > 在1971年，著名的计算机科学家艾兹格·迪科斯彻(Edsger Dijkstra)提出了一个同步问题，即假设有五台计算机都试图访问五份共享的磁带驱动器。稍后，这个问题被托尼·霍尔(Tony Hoare)重新表述为哲学家就餐问题。这个问题可以用来解释死锁和资源耗尽。
 
+在这里我们模拟孔子、墨子、老子、孙子、老子五人在一个房间内修炼冥想，在房间内一共有五只筷子，每个人必须同时获得两双筷子才可以进行吃饭的场景来模拟死锁情况的出现。
+
 
 ```go
 package main
@@ -53,7 +55,7 @@ type Philosopher struct {
 
 // 需求之的进餐和冥想
 // 吃完睡（冥想） 睡完吃
-// 可以调整赤水的时间来增加或者减少抢夺筷子的机会
+// 可以调整时间来增加或者减少抢夺筷子的机会
 func (p *Philosopher) dine() {
 	for {
 		mark(p, "冥想")
@@ -239,4 +241,4 @@ func main() {
 ## ref
 
 1. https://colobu.com/2022/02/13/dining-philosophers-problem/
-2. 
+2. http://c.biancheng.net/view/1236.html
