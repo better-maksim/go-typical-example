@@ -10,7 +10,6 @@
 
 希望这本书能够对大家的日常工作起到一定的帮助。
 
-
 ## 框架设计
 
 在这一部分主要讲解各大框架实现原理以及应用的设计模式。
@@ -26,10 +25,21 @@ TODO
 ### 目录
 
 1. [安全的 goroutine](./concurrency/safe_goroutine.md) 
+2. [使用信号量解决死锁](./concurrency/deadlock.md) 
 
 ## 版权说明
 
 版权声明：自由转载-非商用-非衍生-保持署名（[创意共享3.0许可证](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)）
+
+## 关于作者
+
+网名：吡罗
+
+坐标：杭州
+
+博客地址：[https://www.maksim.website](https://www.maksim.website)
+
+简介：做过iOS，写过 JavaScript，最终走上了 PHP 的道路，一干就是 6 年，2018 年开始接触 Golang，喜欢折腾，特别折腾。
 
 ## 赞助
 
