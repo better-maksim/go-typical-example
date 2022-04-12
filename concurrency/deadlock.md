@@ -235,3 +235,8 @@ func main() {
 ```
 
 你可以运行这个程序，看看是否程序是否还会被hang住。
+
+## ref
+
+1. https://colobu.com/2022/02/13/dining-philosophers-problem/
+2. 

@@ -84,7 +84,7 @@ func RoutineId() uint64 {
 
 // RunSafe runs the given fn, recovers if fn panics.
 func RunSafe(fn func()) {
-    
+
 	defer rescue.Recover()
 
 	fn()
@@ -121,3 +121,7 @@ func Recover(cleanups ...func()) {
 
 如果你目前所处的公司使用的框架是自研的，你可以看看有没有 safe_go 的封装，如果没有建议你讲这个方法加入到你们的项目中。
 
+## ref
+
+1. https://www.jianshu.com/p/b7c54e2b2216
+2. go-zero
