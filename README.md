@@ -23,9 +23,10 @@ TODO
 在这一部分主要对并发编程的一些细节、案例进行讲解，帮助大家快速入门 Go 并发编程。
 
 ### 目录
+
 1. [线程安全的计数器](./concurrency/incr.md)
-1. [安全的 goroutine](./concurrency/safe_goroutine.md) 
-2. [使用信号量解决死锁](./concurrency/deadlock.md) 
+2. [安全的 goroutine](./concurrency/safe_goroutine.md) 
+3. [使用信号量解决死锁](./concurrency/deadlock.md) 
 
 ## 版权说明
 
@@ -40,6 +41,10 @@ TODO
 博客地址：[https://www.maksim.website](https://www.maksim.website)
 
 简介：做过iOS，写过 JavaScript，最终走上了 PHP 的道路，一干就是 6 年，2018 年开始接触 Golang，喜欢折腾，特别折腾。
+
+## 鸣谢
+
+1. serendipity
 
 ## 赞助
 
